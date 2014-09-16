@@ -19,10 +19,10 @@ foreach ($query as $key) {
 	$where = $key[where];
 	$for = $key['for'];
 	$description = $key[description];
-	if ($key[priority] == 1) { $priority = "Low importance"; }
-	if ($key[priority] == 2) { $priority = "Mid importance"; }
-	if ($key[priority] == 3) { $priority = "High importance"; }
-	if ($key[priority] == 4) { $priority = "Urgent Importance LMA"; }
+	if ($key[priority] == 1) { $priority = "Low"; }
+	if ($key[priority] == 2) { $priority = "Medium"; }
+	if ($key[priority] == 3) { $priority = "High"; }
+	if ($key[priority] == 4) { $priority = "Urgent (LMA)"; }
 	$topush = array("id" => $key['id'], "when" => $when, "where" => $where, "for" => $for, "description" => $description, "priority" => $priority, "who" => $key['who'], );
 	array_push($return, $topush);
 }
