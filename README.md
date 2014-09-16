@@ -1,6 +1,16 @@
 Guru Reservations
 =================
 
+## Ownership
+
+(c) 2011, 2012, 2013, 2014 the Government of South Australia, and the Department for Education and Child Development.
+
+(c) 2013 the Department of Education, Employment and Workplace Relations.
+
+(c) 2014 the Department of Education.
+
+This product remains the property of the Government of South Australia – classified protected.
+
 ## Security Level
 
 Classified protected.
